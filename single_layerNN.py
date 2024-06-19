@@ -16,6 +16,7 @@ train_X = train_X / 255.0
 test_X = test_X / 255.0
 
 # Convert labels to one-hot vectors
+
 num_classes = 10
 train_y = np.eye(num_classes)[train_y]
 test_y = np.eye(num_classes)[test_y]
